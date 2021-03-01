@@ -1,0 +1,821 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"parent_id"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"thumb",
+				"thumb_url"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"page",
+				"page_title_words"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"overflow",
+				"overflow-y"
+			],
+			[
+				"bottom",
+				"bottom-bar"
+			],
+			[
+				"port",
+				"portfolio-cat"
+			],
+			[
+				"end",
+				"endwhile"
+			],
+			[
+				"the",
+				"the_sub_field"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"FONT",
+				"font-size"
+			],
+			[
+				"left",
+				"left-column"
+			],
+			[
+				"navbar",
+				"navbar-header"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"get",
+				"getGroups"
+			],
+			[
+				"btn",
+				"btn-modify"
+			],
+			[
+				"panel",
+				"panel-heading"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"create",
+				"created_at"
+			],
+			[
+				"cl",
+				"cl	clear: ${1:both};"
+			],
+			[
+				"wyso",
+				"wysokosc_calego_diva"
+			],
+			[
+				"ta",
+				"ta:c	text-align:center"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"he",
+				"head"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"pr",
+				"pos-r	position: relative;"
+			],
+			[
+				"bg",
+				"bg	background"
+			],
+			[
+				"bgr",
+				"bgr	background-repeat"
+			],
+			[
+				"building",
+				"building_costs"
+			],
+			[
+				"bu",
+				"building_costs"
+			],
+			[
+				"slider",
+				"slider-handle"
+			],
+			[
+				"col",
+				"col-calculator"
+			],
+			[
+				"footer",
+				"footer-menu"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"window",
+				"window_width"
+			],
+			[
+				"wi",
+				"window_width"
+			],
+			[
+				"build",
+				"build_content"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"absence",
+				"absence_day"
+			],
+			[
+				"abse",
+				"absence_days"
+			],
+			[
+				"absn",
+				"absence_days"
+			],
+			[
+				"author",
+				"author"
+			],
+			[
+				"ab",
+				"absence_day"
+			],
+			[
+				"kids",
+				"kidsgroup_id"
+			],
+			[
+				"list-style",
+				"list-style"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"opis",
+				"opis_inwestycji"
+			],
+			[
+				"main",
+				"main-content"
+			],
+			[
+				"table",
+				"table-payments-raport"
+			],
+			[
+				"czesne",
+				"czesne_price"
+			],
+			[
+				"dzie",
+				"dziejsza_data"
+			],
+			[
+				"row",
+				"row"
+			],
+			[
+				"genera",
+				"generators_model"
+			],
+			[
+				"active",
+				"active-menu"
+			],
+			[
+				"gen",
+				"gen-values"
+			],
+			[
+				"komentarz",
+				"komentarz_faktury"
+			],
+			[
+				"pricing",
+				"pricing_settings"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"activi",
+				"activities_id"
+			],
+			[
+				"dzisiejszych",
+				"dzisiejszych_zgl"
+			],
+			[
+				"local",
+				"local-description"
+			],
+			[
+				"slick",
+				"slick-slider"
+			],
+			[
+				"fa-a",
+				"fa-angle-down"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"sidebar",
+				"sidebar-nav"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"nt",
+				"nth-child"
+			],
+			[
+				"top",
+				"top-bar"
+			],
+			[
+				"getAll",
+				"getAllApartmentsInTrash"
+			],
+			[
+				"app",
+				"application_model"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"load",
+				"load_view	CI - Load View"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"text",
+				"text-transform"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"Route",
+				"Snippet: Generate a URL for a given named route."
+			],
+			[
+				"composer",
+				"Composer: Install"
+			],
+			[
+				"artisan",
+				"Laravel Artisan 5: Migrate"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: intall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/Ernest/Desktop/gorecki2-www/gorecki2-www/css/bmw.css",
+		"/C/Users/Ernest/Desktop/gorecki2-www/gorecki2-www/bmw.html",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/style.css",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/page-projekty-wyszukwiarka.php",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/page-projekty.php",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/single-projekty.php",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/footer.php",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/functions.php",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/page-wydarzenia.php",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/archive.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/page.php",
+		"/C/xampp/htdocs/projekty/rso/lfr/rso-theme/single.php",
+		"/C/xampp/htdocs/projekty/rso/lfr/sftp-config.json",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/edit.js",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/settings.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/simple-post-expiration.php",
+		"/C/xampp/htdocs/projekty/rso/aplikacje/mala_panda/application/config/database.php",
+		"/C/xampp/htdocs/projekty/rso/aplikacje/mala_panda/index.php",
+		"/C/xampp/htdocs/projekty/rso/martazalega/wp-content/themes/rso_theme/glowna_2_tmpl.php",
+		"/C/xampp/htdocs/projekty/rso/martazalega/wp-content/themes/rso_theme/page.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/front-page.php",
+		"/C/xampp/htdocs/projekty/rso/martazalega/wp-content/themes/rso_theme/style/rso-theme.css",
+		"/C/xampp/htdocs/projekty/rso/martazalega/wp-content/themes/rso_theme/footer.php",
+		"/C/xampp/htdocs/projekty/rso/martazalega/wp-content/themes/rso_theme/header.php",
+		"/C/xampp/htdocs/projekty/rso/martazalega/wp-content/themes/rso_theme/kontakt_page.php",
+		"/C/xampp/htdocs/projekty/rso/martazalega/wp-content/themes/rso_theme/functions.php",
+		"/C/xampp/htdocs/projekty/rso/martazalega/wp-content/themes/rso_theme/front-page.php",
+		"/C/xampp/htdocs/projekty/rso/martazalega/sftp-config.json",
+		"/C/xampp/htdocs/projekty/rso/zalega-2/sftp-config.json",
+		"/C/xampp/htdocs/projekty/rso/zalega/sftp-config.json",
+		"/C/Users/Ernest/Desktop/strona/strona/index.html",
+		"/C/xampp/htdocs/projekty/rso/zalega/index.html",
+		"/C/xampp/htdocs/projekty/rso/zalega/style/rso-theme.css",
+		"/C/xampp/htdocs/projekty/rso/zirkon/sftp-config.json",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/search 2.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/blog_right_sidebar_tmpl.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/page-templates/blog_right_sidebar_tmpl.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/search.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/contact_tmpl.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/category.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/archive.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/about_tmpl.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/pages_tmpl.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/standard_page_rright_sidebar_tmpl.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/single.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/single-main_portfolio.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/portfolio_tmpl.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/single.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/archive.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/comments.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/comments 3.php",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/single-blog-1.html",
+		"/C/Users/Ernest/Desktop/wordpress-4.5.3-pl_PL/wordpress/wp-content/themes/twentyfifteen/comments.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/single 2.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/comments 2.php",
+		"/C/Users/Ernest/AppData/Local/Temp/fz3temp-1/comments.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/single-main_portfolio.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/assets/css/style.css",
+		"/C/Users/Ernest/Desktop/devdmbootstrap3.1.80/devdmbootstrap3/theme-options.php",
+		"/C/Users/Ernest/Desktop/devdmbootstrap3.1.80/devdmbootstrap3/functions.php",
+		"/C/Users/Ernest/Desktop/devdmbootstrap3.1.80/devdmbootstrap3/comments.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/style.css",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/functions.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/footer.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/header.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/front-page.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/page-templates/portfolio_tmpl.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/page-templates/pages_tmpl.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/category.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/page-templates/standard_page_rright_sidebar_tmpl.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/page-templates/about_tmpl.php",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/single-portfolio-1.html",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/page-templates/single-main_portfolio.php",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/index-portfolio.html",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/assets/css/structure.css",
+		"/C/xampp/htdocs/projekty/rso/moorgate/wp-content/themes/moorgate/front-page.php",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/blog-Rsidebar.html",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/page-templates/contact_tmpl.php",
+		"/C/xampp/htdocs/projekty/rso/moorgate/wp-content/themes/moorgate/page.php",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/contact-1.html",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/index-agency.html",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/index.php",
+		"/C/xampp/htdocs/projekty/rso/moorgate/wp-content/themes/moorgate/header.php",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/portfolio-1.html",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/pages_tmpl.php",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/about-2.html",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/blog_right_sidebar_tmpl.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/about_tmpl.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/instinct_theme/standard_page_rright_sidebar_tmpl.php",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/404.html",
+		"/C/Users/Ernest/Desktop/Instinct_Blog_Portfolio_Template_608680/Instinct_Blog_Portfolio_Template_608680/Theme/standard-page-1.html",
+		"/C/xampp/htdocs/projekty/rso/moorgate/wp-content/themes/moorgate/index.php",
+		"/C/xampp/htdocs/projekty/rso/moorgate/wp-content/themes/moorgate/footer.php",
+		"/C/xampp/htdocs/projekty/ernest/mk_site/wp-content/themes/twentyfifteen/style.css",
+		"/C/xampp/htdocs/projekty/rso/moorgate/wp-content/themes/moorgate/style.css",
+		"/C/xampp/htdocs/projekty/rso/moorgate/html/index.html",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/backend/master.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/backend/users_view/groups_add.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/public/backend/css/style.css",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/backend/users_view/groups_view.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/backend/users_view/groups_edit.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/backend/login_view/login_view.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/Uprawnienia dla grup.txt",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/backend/users_view/users_view.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/home.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/resources/views/backend/login_view/register_header.blade.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/ApplicationSettings.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/Http/Middleware/EncryptCookies.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/Http/Middleware/Authenticate.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/Http/Requests/Request.php",
+		"/C/xampp/htdocs/projekty/rso/aplikacje/wynajem/application/controllers/building.php",
+		"/C/xampp/htdocs/projekty/rso/aplikacje/wynajem/application/models/building_model.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/app/Http/Controllers/dashboard.php",
+		"/C/xampp/htdocs/projekty/rso/aplikacje/wynajem/application/views/building/index.php",
+		"/C/Users/Ernest/Desktop/Flatlab Main Files/admin/template_content/responsive_table.html",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/database/migrations/2016_06_29_172159_create_groups_table.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/database/seeds/UserTableSeeder.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/projekty/ernest/noclegi/database/seeds/DatabaseSeeder.php",
+		"/C/Users/Ernest/Desktop/Flatlab Main Files/admin/template_content/profile.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".projects-news ul li",
+			"$the_query",
+			"excerpt",
+			"exce",
+			"zajawkaurl",
+			".container .right-col .bottom div:nth-child(2)",
+			"repeater",
+			"footer",
+			"contain",
+			"tiles",
+			".tiles > div:nth-child(-n+4) > .item",
+			"shadow",
+			"body.page .container",
+			"container",
+			".container",
+			"span",
+			"8deg",
+			"Light",
+			"8deg",
+			"-8",
+			"<div class=\"item\">",
+			"orange",
+			"<div class=\"col-md-3\">\n			<p>Lorem ipsum.</p>\n		</div>",
+			"footer",
+			"bottom-bar",
+			"041450777202073vh",
+			".newsletter-content .formError",
+			"0.5",
+			"newsletter-content",
+			"item-5",
+			"bottom-bar",
+			".item a > span",
+			"ribbon",
+			".rects",
+			".rects .item",
+			"bottom-bar",
+			".bottom-bar",
+			".text",
+			".logo",
+			".circles .item span.title",
+			".bottom-bar",
+			"bottom-bar",
+			"5px",
+			"45px",
+			"#af2222",
+			"0.15151515151515152vw",
+			"0.10101010101010101",
+			"2px",
+			"red",
+			"8",
+			"10",
+			".bottom-bar ",
+			"0.1",
+			"1s",
+			"0.5",
+			"contain",
+			"cover",
+			"100%",
+			"0.2",
+			" style=\"background: red; height: 800px;\"",
+			"<div class=\"col-md-3\">",
+			"TEKST",
+			".span",
+			"<span class=\"span\">",
+			"0.3",
+			"100%",
+			"filter",
+			"all",
+			"100%",
+			"www.lucid-themes.com",
+			"time",
+			"$(this)",
+			"col-medium-3",
+			".",
+			"$(this)",
+			".col-medium-6",
+			"6",
+			"$LatestPostsQuery",
+			"$the_query",
+			"the_query",
+			"\"#\"",
+			"services_tiles",
+			"Services",
+			"homepage",
+			"assets/",
+			"<tr>\n                            <td>29.06.2016</td>\n                            <td><a href=\"#\">Client Desktop & Mobile Devices Specialist</a></td>\n                            <td>Warmińsko-Mazurskie</td>\n                            <td>Do negocjacji</td>\n                            <td><a href=\"#\">Aplikuj <i class=\"fa fa-arrow-circle-down\" aria-hidden=\"true\"></i></a></td>\n                          </tr>",
+			".subpage-content",
+			"<td><a href=\"#\">Aplikuj</a></td>",
+			"<tr>\n                            <td>Mary</td>\n                            <td>Moe</td>\n                            <td>mary@example.com</td>\n                          </tr>",
+			".container .left-column .content .item",
+			"200",
+			"<div class=\"left-col\">",
+			"left-col",
+			".right-col",
+			".bottom",
+			"<div class=\"item\">\n                        <div class=\"left-col\">\n                            <i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i>\n                        </div>\n                    </div>",
+			"0.3",
+			"ease",
+			"<div class=\"item\">\n                        \n                    </div>",
+			"0.1",
+			"getUsersFromGroup",
+			"name",
+			"email",
+			"inputSuccess",
+			"users",
+			"kont",
+			"checkbox-01",
+			"Usuń",
+			"respond",
+			"')\n",
+			"true",
+			"author",
+			"$row->log_type",
+			"5.070993914807302",
+			"3.2454361054766734",
+			"2.535496957403651",
+			".col-left",
+			"md",
+			"map",
+			"initial",
+			"cover",
+			".boxes > div.box-content .content",
+			"img.z_polski",
+			"body.subpage .header .menu ul li",
+			"height",
+			"10",
+			"0.75",
+			"0.3"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.composer":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 157.0
+	},
+	"pinned_build_system": "",
+	"project": "ProjectGORECKI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

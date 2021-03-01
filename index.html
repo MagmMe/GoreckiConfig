@@ -1,0 +1,2234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+    <meta name="description" content="">
+    <meta name="author" content=" Created by Softlab.Me and Magm.Me All rights reserved. Do You like this configurator site? Stay in touch: marcin@magm.me; biuro@softlab.me">
+
+    <title>Górecki.pl - producent kołpaków</title>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="img/png" href="images/favico.png" sizes="100x63" />
+
+    <!-- FontAwesome -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--SlickSlider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme -->
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!-- Preloader CSS -->
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen, print" />
+
+    <!-- End Preloader CSS -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="fluid-container">
+
+        <div class="top-bar">
+
+            <div class="choosers">
+
+                <span data-menu="1"><img src="images/ikony/samochod.png" alt="" class="img-responsive"></span>
+                <span data-menu="2"><img src="images/ikony/lupa.png" alt="" class="img-responsive"></span>
+                <span data-menu="3" id="showArrow"><img src="images/ikony/felga.png" alt="" class="img-responsive"></span>
+                <span data-menu="4" class="arrow hidden"><img src="images/ikony/arrow.png" alt="" class="img-responsive"></span>
+            </div>
+
+            <div class="logos">
+
+                <ul class="list-inline">
+                    <li data-menu="1" data-name="argo" class="active"><img src="images/logo/argo.png" alt=""></li>
+                    <li data-menu="2" data-name="4racing"><img src="images/logo/4racing.png" alt=""></li>
+                    <li data-menu="3" data-name="j-tec"><img src="images/logo/j-tec.png" alt=""></li>
+                    <li data-menu="4" data-name="max6"><img src="images/logo/max6.png" alt=""></li>
+                    <li data-menu="5" data-name="truck"><img src="images/logo/truck.png" alt=""></li>
+                    <li data-menu="6" data-name="van"><img src="images/logo/van.png" alt=""></li>
+                </ul>
+
+            </div>
+
+            <a href="http://www.gorecki.pl" class="logo">
+                <img src="images/logo/gorecki-kopia.png" alt="Gorecki Configurator">
+            </a>
+
+        </div>
+
+        <div class="main-content">
+            <div class="edgtf-custom-font-holder" style="font-family: Arial; font-size: 20px; line-height: 10vh; font-weight: 100; letter-spacing: 5px; text-align: center; color: white" data-font-size="50" data-line-height="50" position="absoluteosi" margin-top="30vh">
+                Turn the screen to horizontal position / <br /> Przełącz ekran w tryb <br /> horyzontalny </div>
+
+            <div id="menu" class="col-1-parts">
+                <nav class="menu-1">
+                    <a href="" data-item-name="bmw" class="active"><img src="images/menu/bmw.png"></a>
+                    <a href="" data-item-name="mazda"><img src="images/menu/mazda_sedan.png"></a>
+                    <a href="" data-item-name="mazda_wagon"><img src="images/menu/mazda_kombi.png"></a>
+                    <a href="" data-item-name="mercedes"><img src="images/menu/mercedes.png"></a>
+                    <a href="" data-item-name="range"><img src="images/menu/range.png"></a>
+                    <a href="" data-item-name="vw"><img src="images/menu/vw.png"></a>
+                    <a href="" data-item-name="fiat"><img src="images/menu/fiat.png"></a>
+                    <a href="" data-item-name="van"><img src="images/menu/van.png"></a>
+                    <a href="" data-item-name="minibus"><img src="images/menu/minibus.png"></a>
+                    <a href="" data-item-name="bus_scania"><img src="images/menu/bus.png"></a>
+                    <a href="" data-item-name="truck"><img src="images/menu/truck.png"></a>
+                </nav>
+
+                <nav class="menu-2">
+                    <a data-color="white" class="white" href=""><img src="images/kolory/white.png"></a>
+                    <!--<a data-color="white" class="white" href="">&nbsp;</a> -->
+                    <a data-color="silver" class="silver" href=""><img src="images/kolory/silver.png"></a>
+                    <a data-color="black" class="black" href=""><img src="images/kolory/black.png"></a>
+                    <a data-color="gold" class="gold" href=""><img src="images/kolory/gold.png"></a>
+                    <a data-color="red" class="red" href=""><img src="images/kolory/red.png"></a>
+                    <a data-color="orange" class="orange active" href=""><img src="images/kolory/orange.png"></a>
+                    <a data-color="yellow" class="yellow" href=""><img src="images/kolory/yellow.png"></a>
+                    <a data-color="pink" class="pink" href=""><img src="images/kolory/pink.png"></a>
+                    <a data-color="violet" class="violet" href=""><img src="images/kolory/violet.png"></a>
+                    <a data-color="blue" class="blue" href=""><img src="images/kolory/blue.png"></a>
+                    <a data-color="green" class="green" href=""><img src="images/kolory/green.png"></a>
+                </nav>
+            </div>
+
+
+            <div id="main-car" class="bmw">
+
+                <div class="car">
+                    <img src="images/auto/bmw/orange.png" alt="" class="img-responsive">
+                    <img id="left-rim">
+                    <img id="right-rim">
+                </div>
+                <div id="background-changer">
+                    <ul>
+                        <li class="active">
+                            <img src="/images/tla/miniaturki/przymierzalnia_tlo_3.png" data-src="images/tla/przymierzalnia_tlo_3.png">
+                        </li>
+                        <li>
+                            <img src="/images/tla/miniaturki/przymierzalnia_tlo_2.png" data-src="images/tla/przymierzalnia_tlo_2.png">
+                        </li>
+                        <li>
+                            <img src="/images/tla/miniaturki/przymierzalnia_tlo_1.png" data-src="images/tla/przymierzalnia_tlo_1.png">
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="bottom-bar">
+
+            <div class="col-1">
+                <div class="slider-box slider-1">
+                    <div class="slider">
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ADVANCE</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/advance.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">ALABAMA</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/alabama.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">AVALONE PRO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/avalone_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">DAYTONA PRO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/daytona_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size=' 13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">GIGA BLACK</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/giga_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">GIGA DARK</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/giga_dark.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">GIGA</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/giga.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15"'>
+
+                                <div class="titles">
+                                    <span class="title-1">IMOLA</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/imola.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">INTESO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/inteso.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MECADOR</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/macador.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MAGNUM PRO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/magnum_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MEGA</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/mega.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MONZA</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/monza.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NERO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/nero.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">OPUS</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/opus.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RACING</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/racing.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RADIUS</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/radius.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SILVERSTONE PRO</span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/silverstone_pro_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SILVERSTONE PRO</span>
+                                    <span class="sub-title">dark</span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/silverstone_pro_dark.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SILVERSTONE PRO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/silverstone_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SILVERSTONE </span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/silverstone.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">SPEED</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/speed.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">SPORTIVE</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/sportive.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">STILL</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/still.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='12" '>
+
+                                <div class="titles">
+                                    <span class="title-1">TINO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/tino.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">VENTURE PRO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/venture_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">VENTURE</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/venture.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">VISION</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/argo/vision.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  argo -->
+
+                <div class="slider-box slider-2">
+                    <!--  4racing -->
+                    <div class="slider">
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">AVALON CARBON</span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/avalon_carbon_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">AVALON CARBON</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/avalon_carbon.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">AVALON</span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/avalon_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size=' 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">AVERA</span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/avera_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">CALIBER CARBON</span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/caliber_carbon_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">CALIBER CARBON</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/caliber_carbon.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">EVO RACE PRO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/evo_race_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">GIGA R</span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/giga_r_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">INTENSO PRO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/inteso_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">LE MANS PRO</span>
+                                    <span class="sub-title">green & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/le_mans_green_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">LE MANS PRO</span>
+                                    <span class="sub-title">pink & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/le_mans_pro_pink_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">LE MANS PRO</span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/le_mans_pro_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">LIVORNO CARBON </span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/livorno_carbon.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                        <!-- Magme Add -->
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">LIVORNO CARBON </span>
+                                    <span class="sub-title">silver & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/livorno_carbon_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                        <!-- Magme Add -->
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MEGA </span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/mega_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MOTION </span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/motion_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MUGELLO </span>
+                                    <span class="sub-title">white & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/mugello_white_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NARDO </span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/nardo_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NERO </span>
+                                    <span class="sub-title">black & silver</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/nero_black_silver.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NERO R </span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/nero_r_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RADICAL PRO </span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/radical_pro_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RADICAL PRO </span>
+                                    <span class="sub-title">white</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/radical_pro_white.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RADICAL PRO </span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/radical_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RS-T </span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/rs_t_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RS-T </span>
+                                    <span class="sub-title">white</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/rs_t_white.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RS-T </span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/rs_t.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SILVERSTONE </span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/silverstone_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPYDER PRO </span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/spyder_pro_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPYDER PRO </span>
+                                    <span class="sub-title">grey</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/spyder_pro_grey.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPYDER PRO </span>
+                                    <span class="sub-title">white</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/spyder_pro_white.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPYDER PRO </span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/spyder_pro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">TORO </span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/toro_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">VOLTANE </span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/volante_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">VOLTEC PRO </span>
+                                    <span class="sub-title">white & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/voltec_pro_white_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">VR CARBON </span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/vr_carbon_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">VR CARBON </span>
+                                    <span class="sub-title">grey</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/vr_carbon_grey.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">VR CARBON </span>
+                                    <span class="sub-title">white</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/vr_carbon_white.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">VR CARBON </span>
+                                    <span class="sub-title"><br></span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/vr_carbon.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">VR  </span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/4racing/vr_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-box slider-3">
+                    <div class="slider">
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">BARRACUDA</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/barracuda.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+
+
+                        <!-- Magme ADD -->
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='15"'>
+
+                                <div class="titles">
+                                    <span class="title-1">CAMARO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/camaro.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                        <!-- Magme ADD -->
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">DISCOVERY R</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/discovery_r.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">DISCOVERY</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/discovery.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" '>
+
+                                <div class="titles">
+                                    <span class="title-1">EMOTION BLACK</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/emotion_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" '>
+
+                                <div class="titles">
+                                    <span class="title-1">EMOTION </span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/emotion.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ENFINITIY</span>
+                                    <span class="sub-title">black & silver</span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/enfinity_black_silver.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ENFINITIY</span>
+                                    <span class="sub-title">silver & black</span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/enfinity_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ENFINITIY</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/enfinity.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15"'>
+
+                                <div class="titles">
+                                    <span class="title-1">FOCUS</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/focus.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">GRAND PRIX R</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/grand_prix_r.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">GRAND PRIX SR</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/grand_prix_sr.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">GRAND PRIX WHITE</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/grand_prix_white.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                        <!-- Magme ADD -->
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">GRAND PRIX</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/grand_prix.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                        <!-- Magme ADD -->
+
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">HERO GTR</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/hero_gtc.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" '>
+
+                                <div class="titles">
+                                    <span class="title-1">HERO</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/hero.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15"'>
+
+                                <div class="titles">
+                                    <span class="title-1">LUXOR R</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/luxor_r.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15"'>
+
+                                <div class="titles">
+                                    <span class="title-1">LUXOR</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/luxor.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MAXIMUS B</span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/maximus_black_b.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MAXIMUS </span>
+                                    <span class="sub-title">black & red</span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/maximus_black_red.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MAXIMUS GT</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/maximus_gt.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MAXIMUS GTR</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/maximus_gtr.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MAXIMUS </span>
+                                    <span class="sub-title">silver & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/maximus_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MAXIMUS </span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/maximus.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" '>
+
+                                <div class="titles">
+                                    <span class="title-1">MODENA </span>
+                                    <span class="sub-title">black & silver </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/modena_black_silver.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" '>
+
+                                <div class="titles">
+                                    <span class="title-1">MODENA </span>
+                                    <span class="sub-title">black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/modena_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" '>
+
+                                <div class="titles">
+                                    <span class="title-1">MODENA R</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/modena_r.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" '>
+
+                                <div class="titles">
+                                    <span class="title-1">MODENA</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/modena.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NASCAR </span>
+                                    <span class="sub-title">black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/nascar_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NASCAR </span>
+                                    <span class="sub-title">green & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/nascar_green_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NASCAR </span>
+                                    <span class="sub-title">red & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/nascar_red_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NASCAR </span>
+                                    <span class="sub-title">silver & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/nascar_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NASCAR </span>
+                                    <span class="sub-title">silver </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/nascar_silver.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NASCAR ST</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/nascar_st.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">NASCAR</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/nascar.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN</span>
+                                    <span class="sub-title">black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden_back.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN R</span>
+                                    <span class="sub-title">blue </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden_blue_r.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN</span>
+                                    <span class="sub-title">green & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden_green_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN R</span>
+                                    <span class="sub-title">orange  </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden_orange_r.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN R</span>
+                                    <span class="sub-title"><br />  </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden_r.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN </span>
+                                    <span class="sub-title">red & black  </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden_red_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN R</span>
+                                    <span class="sub-title">silver </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden_silver_r.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN SR</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden_sr.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">ORDEN</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/orden.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">PHANTOM</span>
+                                    <span class="sub-title">black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/phantom_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">PHANTOM</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/phantom.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">PRINCE</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/prine.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" '>
+
+                                <div class="titles">
+                                    <span class="title-1">RS 2000</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/rs2000.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SEPANG CARBON </span>
+                                    <span class="sub-title">silver & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/sepang_carbon_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SEPANG CARBON </span>
+                                    <span class="sub-title">silver & red </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/sepang_carbon_silver_red.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SEPANG CARBON </span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/sepang_carbon.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SEPANG  </span>
+                                    <span class="sub-title">silver & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/sepang_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SEPANG  </span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/sepang.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SKYLINE  </span>
+                                    <span class="sub-title">silver </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/skyline_silver.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">STRATOS  </span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/stratos.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">VERON CARBON  </span>
+                                    <span class="sub-title">silver & black </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/veron_carbon_silver_black.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">VERON CARBON  </span>
+                                    <span class="sub-title">silver & red </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/veron_carbon_silver_red.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">VERON CARBON  </span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/veron_carbon.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-box slider-4">
+                    <div class="slider">
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14"'>
+
+                                <div class="titles">
+                                    <span class="title-1">AVALON CHROME</span>
+                                    <span class="sub-title">Black </span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Avalon_Chrome_Black_13_14.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="1" data-size='13" 14"'>
+
+                                <div class="titles">
+                                    <span class="title-1">VERON CHROME</span>
+                                    <span class="sub-title">Black </span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Veron_Chrome_Black_13_14.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">AVERA NYLON</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Avera_Nylon_13_14_15_16.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MEGA NYLON</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Mega_Nylon_13_14_15_16.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">MYTHOS NYLON</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Mythos_Nylon_13_14_15_16_17.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">PLATINUM NYLON</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Platinum_Nylon_13_14_15_16.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">RACING PRO NYLON</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Racing_Pro_Nylon_13_14_15_16.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPYDER PRO NYLON </span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Spyder_Pro_Nylon_!3_14_15_16_17.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPYDER PRO NYLON</span>
+                                    <span class="sub-title">black</span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Spyder_Pro_Nylon_Black_13_14_15_16_17.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPYDER PRO NYLON</span>
+                                    <span class="sub-title"> dark</span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Spyder_Pro_Nylon_Dark_13_14_15_16_17.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPYDER PRO NYLON</span>
+                                    <span class="sub-title">white</span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Spyder_Pro_Nylon_White_13_14_15_16_17.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='13" 14" 15" 16" 17"'>
+
+                                <div class="titles">
+                                    <span class="title-1">VENTURE PRO NYLON</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/max6/Venture_Pro_Nylon_13_14_15_16.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="slider-box slider-5">
+                    <div class="slider">
+                        <div>
+                            <div class="item default" data-front="1" data-company="1" data-rim="1" data-size='22.5"'>
+
+                                <div class="titles">
+                                    <span class="title-1">TB01-F</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/truck/TB01-F_ok.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-front="0" data-company="1" data-rim="2" data-size='22.5"'>
+
+                                <div class="titles">
+                                    <span class="title-1">TB01-R</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/truck/TB01-R.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-box slider-6">
+                    <div class="slider">
+                        <div>
+                            <div class="item default" data-front="1" data-company="1" data-rim="1" data-size='15 16"'>
+
+                                <div class="titles">
+                                    <span class="title-1">SPEED VAN</span>
+                                    <span class="sub-title"><br /> </span>
+                                </div>
+
+                                <img src="images/kolpaki/van/speed_van.png" alt="">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item" data-company="1" data-rim="2" data-size='15"'>
+
+                                <div class="titles">
+                                    <span class="title-1">CAMARO SPRINTER</span>
+                                    <span class="sub-title"><br /></span>
+                                </div>
+
+                                <img src="images/kolpaki/jtac/camaro_sprinter.png" alt="" data-name="camaro">
+
+                                <span class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="company-logo" class="col-2">
+                <img src="images/logo2/argo.png" alt="">
+            </div>
+
+            <div id="wheelName" class="col-3">
+                <div class="titles">
+                    <span class="title">AVALON CARBON</span>
+                    <span class="sub-title">SILVER & BLACK</span>
+                </div>
+
+                <div class="details">
+                    <span>13" 14" 15" 16" 17"</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Magme Softlab Promo -->
+
+        <div class="container-fluid">
+            <div class="row" id="promo">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-right">
+                    <p>Created by <a style="color:#DB004E" href="http://www.magm.me" target="_blank"> Magme Agency </a>and <a href="http://www.softlab.me" target="_blank"> Softlab.Me</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Promo -->
+
+    </div>
+
+
+    <script>
+        $(document).ready(function() {
+            $('.slider-1 .slider, .slider-2 .slider, .slider-3 .slider, .slider-4 .slider, .slider-5 .slider, .slider-6 .slider').slick({
+                infinite: false,
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                centerPadding: '0px',
+            });
+        });
+    </script>
+
+    <script src="js/global.js"></script>
+
+
+    <!-- Preloader -->
+    <script type="text/javascript">
+        //<![CDATA[
+        $(window).on('load', function() { // makes sure the whole site is loaded
+                $('#status').fadeOut(); // will first fade out the loading animation
+                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                $('body').delay(350).css({
+                    'overflow': 'visible'
+                });
+            })
+            //]]>
+    </script>
+
+    <!-- Preloader END -->
+</body>
+
+</html>
